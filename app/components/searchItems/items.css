@@ -1,0 +1,21 @@
+.itemWidgetContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+.filterBox {
+  position: relative;
+}
+
+.listBox {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.button {
+  bottom: -25px;
+  right: 20px;
+  float: right;
+  /* position: 'absolute'; */
+}
